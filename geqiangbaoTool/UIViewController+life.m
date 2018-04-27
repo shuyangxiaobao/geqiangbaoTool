@@ -65,6 +65,9 @@
 -(void)life_viewWillAppear:(BOOL)animated{
     [self life_viewWillAppear:animated];
     NSString *className = NSStringFromClass([self class]);
+    if([className containsString:@"NavigationController"]){
+        return;
+    }
     NSLog(@"🐱🐱🐱🐱 viewWillAppear 即将进入控制器:%@",className);
 }
 
