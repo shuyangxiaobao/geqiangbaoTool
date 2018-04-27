@@ -17,6 +17,8 @@
 		90338B4B2092F4CF006DF91E /* geqiangbaoTool_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90338B4A2092F4CF006DF91E /* geqiangbaoTool_demoUITests.m */; };
 		90338B5C2092F52E006DF91E /* PublicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 90338B5B2092F52E006DF91E /* PublicTool.m */; };
 		90338B5E2092F572006DF91E /* geqiangbaoTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 90338B5D2092F572006DF91E /* geqiangbaoTool.podspec */; };
+		90338B632092FE88006DF91E /* UIViewController+life.m in Sources */ = {isa = PBXBuildFile; fileRef = 90338B612092FE87006DF91E /* UIViewController+life.m */; };
+		90338B642092FE88006DF91E /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 90338B622092FE88006DF91E /* NSObject+Swizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		90338B5A2092F52E006DF91E /* PublicTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicTool.h; sourceTree = "<group>"; };
 		90338B5B2092F52E006DF91E /* PublicTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublicTool.m; sourceTree = "<group>"; };
 		90338B5D2092F572006DF91E /* geqiangbaoTool.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = geqiangbaoTool.podspec; path = ../geqiangbaoTool.podspec; sourceTree = "<group>"; };
+		90338B5F2092FE87006DF91E /* UIViewController+life.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+life.h"; sourceTree = "<group>"; };
+		90338B602092FE87006DF91E /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		90338B612092FE87006DF91E /* UIViewController+life.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+life.m"; sourceTree = "<group>"; };
+		90338B622092FE88006DF91E /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,10 @@
 		90338B592092F510006DF91E /* geqiangbaoTool */ = {
 			isa = PBXGroup;
 			children = (
+				90338B602092FE87006DF91E /* NSObject+Swizzling.h */,
+				90338B622092FE88006DF91E /* NSObject+Swizzling.m */,
+				90338B5F2092FE87006DF91E /* UIViewController+life.h */,
+				90338B612092FE87006DF91E /* UIViewController+life.m */,
 				90338B5A2092F52E006DF91E /* PublicTool.h */,
 				90338B5B2092F52E006DF91E /* PublicTool.m */,
 			);
@@ -281,7 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				90338B5C2092F52E006DF91E /* PublicTool.m in Sources */,
+				90338B642092FE88006DF91E /* NSObject+Swizzling.m in Sources */,
 				90338B2B2092F4CD006DF91E /* ViewController.m in Sources */,
+				90338B632092FE88006DF91E /* UIViewController+life.m in Sources */,
 				90338B362092F4CF006DF91E /* main.m in Sources */,
 				90338B282092F4CD006DF91E /* AppDelegate.m in Sources */,
 			);
