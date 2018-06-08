@@ -19,6 +19,8 @@
 		90338B5E2092F572006DF91E /* geqiangbaoTool.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 90338B5D2092F572006DF91E /* geqiangbaoTool.podspec */; };
 		90338B632092FE88006DF91E /* UIViewController+life.m in Sources */ = {isa = PBXBuildFile; fileRef = 90338B612092FE87006DF91E /* UIViewController+life.m */; };
 		90338B642092FE88006DF91E /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 90338B622092FE88006DF91E /* NSObject+Swizzling.m */; };
+		90B69EB720CA297900A9C77F /* NSObject+gqbExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B69EB620CA297900A9C77F /* NSObject+gqbExtension.m */; };
+		90B69EBB20CA2A1400A9C77F /* gqb_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B69EBA20CA2A1400A9C77F /* gqb_Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,12 @@
 		90338B602092FE87006DF91E /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
 		90338B612092FE87006DF91E /* UIViewController+life.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+life.m"; sourceTree = "<group>"; };
 		90338B622092FE88006DF91E /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		90B69EB520CA297900A9C77F /* NSObject+gqbExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+gqbExtension.h"; sourceTree = "<group>"; };
+		90B69EB620CA297900A9C77F /* NSObject+gqbExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+gqbExtension.m"; sourceTree = "<group>"; };
+		90B69EB820CA29CE00A9C77F /* gqb_decode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gqb_decode.h; sourceTree = "<group>"; };
+		90B69EB920CA2A1400A9C77F /* gqb_Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gqb_Person.h; sourceTree = "<group>"; };
+		90B69EBA20CA2A1400A9C77F /* gqb_Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gqb_Person.m; sourceTree = "<group>"; };
+		90B69EBC20CA2A8D00A9C77F /* geqiangbaoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geqiangbaoTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +131,8 @@
 				90338B312092F4CF006DF91E /* LaunchScreen.storyboard */,
 				90338B342092F4CF006DF91E /* Info.plist */,
 				90338B352092F4CF006DF91E /* main.m */,
+				90B69EB920CA2A1400A9C77F /* gqb_Person.h */,
+				90B69EBA20CA2A1400A9C77F /* gqb_Person.m */,
 			);
 			path = geqiangbaoTool_demo;
 			sourceTree = "<group>";
@@ -154,6 +164,10 @@
 				90338B612092FE87006DF91E /* UIViewController+life.m */,
 				90338B5A2092F52E006DF91E /* PublicTool.h */,
 				90338B5B2092F52E006DF91E /* PublicTool.m */,
+				90B69EB520CA297900A9C77F /* NSObject+gqbExtension.h */,
+				90B69EB620CA297900A9C77F /* NSObject+gqbExtension.m */,
+				90B69EB820CA29CE00A9C77F /* gqb_decode.h */,
+				90B69EBC20CA2A8D00A9C77F /* geqiangbaoTool.h */,
 			);
 			name = geqiangbaoTool;
 			path = ../geqiangbaoTool;
@@ -293,9 +307,11 @@
 				90338B5C2092F52E006DF91E /* PublicTool.m in Sources */,
 				90338B642092FE88006DF91E /* NSObject+Swizzling.m in Sources */,
 				90338B2B2092F4CD006DF91E /* ViewController.m in Sources */,
+				90B69EB720CA297900A9C77F /* NSObject+gqbExtension.m in Sources */,
 				90338B632092FE88006DF91E /* UIViewController+life.m in Sources */,
 				90338B362092F4CF006DF91E /* main.m in Sources */,
 				90338B282092F4CD006DF91E /* AppDelegate.m in Sources */,
+				90B69EBB20CA2A1400A9C77F /* gqb_Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
