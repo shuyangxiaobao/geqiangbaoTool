@@ -21,6 +21,7 @@
 		90338B642092FE88006DF91E /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 90338B622092FE88006DF91E /* NSObject+Swizzling.m */; };
 		90B69EB720CA297900A9C77F /* NSObject+gqbExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B69EB620CA297900A9C77F /* NSObject+gqbExtension.m */; };
 		90B69EBB20CA2A1400A9C77F /* gqb_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B69EBA20CA2A1400A9C77F /* gqb_Person.m */; };
+		90C4A30E20CE183100930AF0 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C4A30C20CE183100930AF0 /* NSArray+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		90B69EB920CA2A1400A9C77F /* gqb_Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gqb_Person.h; sourceTree = "<group>"; };
 		90B69EBA20CA2A1400A9C77F /* gqb_Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gqb_Person.m; sourceTree = "<group>"; };
 		90B69EBC20CA2A8D00A9C77F /* geqiangbaoTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geqiangbaoTool.h; sourceTree = "<group>"; };
+		90C4A30C20CE183100930AF0 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		90C4A30D20CE183100930AF0 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 		90338B592092F510006DF91E /* geqiangbaoTool */ = {
 			isa = PBXGroup;
 			children = (
+				90C4A30D20CE183100930AF0 /* NSArray+Log.h */,
+				90C4A30C20CE183100930AF0 /* NSArray+Log.m */,
 				90338B602092FE87006DF91E /* NSObject+Swizzling.h */,
 				90338B622092FE88006DF91E /* NSObject+Swizzling.m */,
 				90338B5F2092FE87006DF91E /* UIViewController+life.h */,
@@ -304,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C4A30E20CE183100930AF0 /* NSArray+Log.m in Sources */,
 				90338B5C2092F52E006DF91E /* PublicTool.m in Sources */,
 				90338B642092FE88006DF91E /* NSObject+Swizzling.m in Sources */,
 				90338B2B2092F4CD006DF91E /* ViewController.m in Sources */,
