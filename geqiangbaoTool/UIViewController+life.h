@@ -13,4 +13,5 @@
 -(void)life_viewDidLoad;
 -(void)life_viewWillAppear:(BOOL)animated;
 -(void)life_viewWillDisappear:(BOOL)animated;
+-(void)life_dismissViewControllerAnimated:(BOOL)flag completion:(void (^)(void))completion;
 @end
