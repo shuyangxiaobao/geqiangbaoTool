@@ -16,7 +16,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         [UIViewController methodExchangeWithOriginSelector:@selector(viewWillAppear:) byNewSelector:@selector(life_viewWillAppear:)];
-        [UIViewController methodExchangeWithOriginSelector:@selector(dismissViewControllerAnimated:completion:) byNewSelector:@selector(life_dismissViewControllerAnimated:completion:)];
+//        [UIViewController methodExchangeWithOriginSelector:@selector(dismissViewControllerAnimated:completion:) byNewSelector:@selector(life_dismissViewControllerAnimated:completion:)];
         
     });
 }
@@ -24,7 +24,6 @@
 -(void)life_viewDidLoad{
     [self life_viewDidLoad];
     NSString *className = NSStringFromClass([self class]);
-    //    NSLog(@"🐱🐱🐱🐱 viewDidLoad 初始化控制器:%@",className);
 }
 
 -(void)life_viewWillAppear:(BOOL)animated{

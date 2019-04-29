@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820D35B22251A52E006985E2 /* NSObject+HoookMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 820D35B12251A52E006985E2 /* NSObject+HoookMethod.m */; };
 		90338B282092F4CD006DF91E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90338B272092F4CD006DF91E /* AppDelegate.m */; };
 		90338B2B2092F4CD006DF91E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90338B2A2092F4CD006DF91E /* ViewController.m */; };
 		90338B2E2092F4CD006DF91E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90338B2C2092F4CD006DF91E /* Main.storyboard */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820D35B02251A52E006985E2 /* NSObject+HoookMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+HoookMethod.h"; sourceTree = "<group>"; };
+		820D35B12251A52E006985E2 /* NSObject+HoookMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HoookMethod.m"; sourceTree = "<group>"; };
 		90338B232092F4CD006DF91E /* geqiangbaoTool_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geqiangbaoTool_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90338B262092F4CD006DF91E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90338B272092F4CD006DF91E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 				90B69EB620CA297900A9C77F /* NSObject+gqbExtension.m */,
 				90B69EB820CA29CE00A9C77F /* gqb_decode.h */,
 				90B69EBC20CA2A8D00A9C77F /* geqiangbaoTool.h */,
+				820D35B02251A52E006985E2 /* NSObject+HoookMethod.h */,
+				820D35B12251A52E006985E2 /* NSObject+HoookMethod.m */,
 			);
 			name = geqiangbaoTool;
 			path = ../geqiangbaoTool;
@@ -316,6 +321,7 @@
 				90B69EB720CA297900A9C77F /* NSObject+gqbExtension.m in Sources */,
 				90338B632092FE88006DF91E /* UIViewController+life.m in Sources */,
 				90338B362092F4CF006DF91E /* main.m in Sources */,
+				820D35B22251A52E006985E2 /* NSObject+HoookMethod.m in Sources */,
 				90338B282092F4CD006DF91E /* AppDelegate.m in Sources */,
 				90B69EBB20CA2A1400A9C77F /* gqb_Person.m in Sources */,
 			);
